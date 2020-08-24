@@ -25,7 +25,9 @@
     "incremental": true,
     "noFallthroughCasesInSwitch": true,
     "isolatedModules": true,
-    "noImplicitAny": false
+    "noImplicitAny": false,
+    "baseUrl": "./src",
+    "outDir": "./dist"
   },
   "include": [
     "src/**/*"
