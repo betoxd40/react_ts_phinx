@@ -28,6 +28,8 @@
             "*": ["node_modules/*"],
             "@components/*": ["app/components/*"],
             "@containers/*": ["app/containers/*"],
+            "@hooks/*": ["app/hooks/*"],
+            "@utils/*": ["utils/*"],
             "@routes/*": ["routes"]
         }
     },

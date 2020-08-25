@@ -15,12 +15,12 @@ const GlobalStyle = createGlobalStyle`
 const defaultTheme = {}
 
 const App: React.FC = () => (
-    <>
-        <GlobalStyle />
-        <ThemeProvider theme={{ ...defaultTheme }}>
-            <Routes />
-        </ThemeProvider>
-    </>
+  <>
+    <GlobalStyle />
+    <ThemeProvider theme={{ ...defaultTheme }}>
+      <Routes />
+    </ThemeProvider>
+  </>
 )
 
 export default App

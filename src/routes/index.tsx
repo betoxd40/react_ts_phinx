@@ -1,15 +1,16 @@
 import React from 'react'
-import { Route, Switch, BrowserRouter } from 'react-router-dom'
+import { Route, Switch, Router } from 'react-router-dom'
 import Home from '@containers/Home'
 import Login from '@containers/Login'
+import history from '@utils/history'
 
 const Routes: React.FC = () => (
-  <BrowserRouter>
+  <Router history={history}>
     <Switch>
-      <Route path={'/'} component={Login} />
-      <Route path={'/home'} component={Home} />
+      <Route path={'/login'} component={Login} />
+      <Route path={'/'} component={Home} />
     </Switch>
-  </BrowserRouter>
+  </Router>
 )
 
 export default Routes
