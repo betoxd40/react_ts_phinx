@@ -1,9 +1,9 @@
 import React from 'react'
 
 const Home: React.FC = () => (
-    <>
-        <p>Home</p>
-    </>
+  <>
+    <p>Home</p>
+  </>
 )
 
 export default Home
